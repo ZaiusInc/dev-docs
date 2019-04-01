@@ -9,7 +9,7 @@ Customers are at the core of Zaius. Customers are composed of fields that are ty
 | Display Name | Field Name | Description |
 | :--- | :--- | :--- |
 | Zaius ID | `zaius_id` | A unique, Zaius-generated identifier, that represents a customer |
-| Last Seen Email | `email` | All the emails associated with this customer. |
+| Last Seen Email | `email` | The last seen email associated with this customer. |
 | Last Seen Cookie ID | `vuid` | Zaius' unique Cookie / Device ID, used on web and mobile to identify anonymous customers. |
 
 ### App Identifiers
