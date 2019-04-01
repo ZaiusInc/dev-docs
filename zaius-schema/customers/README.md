@@ -58,5 +58,5 @@ At this time, Custom Identifiers must be created by a member of the Zaius Custom
 
 ## Custom Fields
 
-To create custom Identifiers, 
+{% page-ref page="../custom-schema.md" %}
 
