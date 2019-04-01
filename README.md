@@ -12,7 +12,7 @@ At the core of Zaius are **Customers**.
 
 Every customer has a record of **Events** that they have performed over time. Every event is classified by a **Event Type** \(e.g. order, product, email\) and **Event Action** \(e.g. purchase, view, open\) and additional metadata stored in **Fields** \(e.g. product\_id\). 
 
-{% page-ref page="zaius-schema/events.md" %}
+{% page-ref page="zaius-schema/events/" %}
 
 Customers and Events in Zaius are considered **Objects**, similar to a spreadsheet or a database table. Objects consist of **Fields** to store metadata and information about the data within the object. 
 

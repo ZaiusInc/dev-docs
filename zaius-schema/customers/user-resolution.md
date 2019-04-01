@@ -1,6 +1,6 @@
 # User Resolution
 
-Zaius utilizes Customer Identifiers \(e.g. `emails`, `vuids`, `push_tokens`\) to merge users together and determine where to associate events.
+Zaius utilizes Customer Identifiers \(e.g. `emails`, `vuids`, `push_tokens`\) to merge users together and determine which event is associated with which customer.
 
 Including one or more of these identifiers on an event identifies the user who performed the event and allows Zaius to merge users together when enough information becomes available.
 
