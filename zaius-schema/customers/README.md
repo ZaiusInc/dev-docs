@@ -29,7 +29,15 @@ For example, all the known emails for a customer are stored in the a field calle
 
 ### Custom Identifiers
 
-#### 
+If you have an external database, data lake, or system \(e.g. a point-of-sale system\) that uses a unique identifier to track customers, Zaius supports the creation of Custom Identifiers to ensure that all known information about your customers is tracked and you're able to reconcile information within Zaius with the external data source.
+
+{% hint style="info" %}
+Custom Identifiers are considered when merging customers together. Read more in the [User Resolution](user-resolution.md) section.
+{% endhint %}
+
+{% hint style="warning" %}
+At this time, Custom Identifiers must be created by a member of the Zaius Customer Success team. Contact your CSM or Support via email or chat to learn more.
+{% endhint %}
 
 ### Attributes
 
