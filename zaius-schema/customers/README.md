@@ -14,7 +14,7 @@ Customers are at the core of Zaius. Customers are composed of fields that are ty
 
 ### App Identifiers
 
-Many apps / integrations \(e.g. Shopify or Magento\) create identifiers that map to an external system \(e.g. Shopify ID\) to allow for improved [user resolution](user-resolution.md), troubleshooting, and transparency. Some examples \(this is not an exhaustive list\):
+Many apps / integrations \(e.g. Shopify or Magento\) create identifiers that map to an external system \(e.g. Shopify ID\) to allow for improved [user resolution](user-resolution.md), troubleshooting, and transparency. Some examples:
 
 | Display Name | Description |
 | :--- | :--- |
