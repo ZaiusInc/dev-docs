@@ -2,7 +2,7 @@
 
 Events describe Customer actions. Events are composed of a Type, Action and additional metadata via object fields. 
 
-The Event Type is a categorical name associated with the event. An Action is an activity a user did. For example, 'order' and 'product are Event Types 'purchase', 'return', 'add\_to\_cart', 'detail' would be actions.
+The Event Type is a categorical name associated with the event. An Action is an activity a user did. For example, `order` and `product` are Event Types while `purchase`, `return`, `add_to_cart`, `detail` would be actions.
 
 {% hint style="info" %}
 At minimum, events require an event type and an identifier to associate the event with a customer.
@@ -28,5 +28,5 @@ Zaius has two types of events: **Standard** & **Custom**.
 | :--- | :--- | :--- |
 | venue | visited | TD Garden |
 
-
+To begin sending events to Zaius, refer to the specific documentation for your platform:
 

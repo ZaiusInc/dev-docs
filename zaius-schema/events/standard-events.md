@@ -26,5 +26,3 @@ Orders are a special type of event. Refer to the [Orders documentation ](../orde
 {% endtab %}
 {% endtabs %}
 
-To view the specific object representation of an event, refer to the documentation for your integration target:
-

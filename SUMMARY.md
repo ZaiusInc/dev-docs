@@ -10,7 +10,8 @@
   * [User Resolution](zaius-schema/customers/user-resolution.md)
 * [Events](zaius-schema/events/README.md)
   * [Standard Events](zaius-schema/events/standard-events.md)
-* [Products](zaius-schema/products.md)
+* [Products](zaius-schema/products/README.md)
+  * [Product API](https://zaius.services/docs/zaius_api.html#tag/Products/operation/upsertProducts)
 * [Orders](zaius-schema/orders.md)
 * [Custom Schema](zaius-schema/custom-schema.md)
 
