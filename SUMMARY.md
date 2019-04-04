@@ -19,10 +19,10 @@
 
 * [CSV Upload](bulk-imports/csv-upload.md)
 * [S3 Upload](bulk-imports/s3-upload.md)
-* [SFTP Upload](bulk-imports/sftp-upload.md)
 
 ## Troubleshooting
 
 * [Event Inspector](troubleshooting/event-inspector.md)
+* [Data Source Fields](troubleshooting/data-source-fields.md)
 * [Reports](troubleshooting/reports.md)
 
