@@ -33,7 +33,8 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 
 | Display Name | Field Name | Data Type | Description |
 | :--- | :--- | :--- | :--- |
-| Order ID | order\_id | Text | The unique identifier related to this order. |
+| Order ID | order\_id | Text | The unique identifier related to this order.Subtotal |
+|  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -42,9 +43,15 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 
 ## Importing Historical Orders
 
+The recommended method of sending historical Order data is to send the data [via API](https://api.developer.zaius.com/#tag/Events/operation/insertEvents) or CSV. CSV files can be [uploaded in the UI](../bulk-imports/csv-upload.md) or [via Amazon \(AWS\) S3](../bulk-imports/s3-upload.md). The fields utilized in either method adhere to the schema outlined above.
+
 ## Returns, Refunds & Cancellations
 
+To process returns, refunds and cancellations, send an event with an event type of `order` and one of the following event actions:
 
+{% hint style="info" %}
+The following event actions treat `-30` and `30` as a subtotal identically. They both subtract from the original order.
+{% endhint %}
 
 1. `return` - a customer has returned some or all of the items in an order and been refunded.
 2. `refund` - a customer has been issued a refund for a given order. Semantically, refunds are treated the same as returns in Zaius \(e.g., negative impact on revenue\). You can use either. Use both if you want to distinguish between inventory being returned to you \(a return\) and just money being issued to the original purchaser \(a refund\). If inventory is returned and money is issued back to the purchaser, Zaius recommends using the 'return' order action.
