@@ -34,12 +34,19 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 | Display Name | Field Name | Data Type | Description |
 | :--- | :--- | :--- | :--- |
 | Order ID | order\_id | Text | The unique identifier related to this order.Subtotal |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| Tax |  |  |  |
+| Discount |  |  |  |
+| Shipping |  |  |  |
+| Subtotal |  |  |  |
+| Total |  |  |  |
+| Billing Address |  |  |  |
+| Shipping Address |  |  |  |
+| Phone |  |  |  |
+| Coupon Code |  |  |  |
+| First Name |  |  |  |
+| Last Name |  |  |  |
+| Name |  |  |  |
+| Email |  |  |  |
 
 ## Importing Historical Orders
 
