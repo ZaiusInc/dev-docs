@@ -14,7 +14,7 @@ Top-level information about the order \(e.g. billing address, coupon, tax\) are 
 
 ## Fields
 
-### Order Events
+### Order Line Items \(Events\)
 
 {% hint style="danger" %}
 All Zaius events \(and, as a result, order line items\) are immutable, **meaning that cannot be changed once uploaded to Zaius.** If you need to process returns, refunds or cancellations [please refer to the relevant documentation.](orders.md#returns-refunds-and-cancellations)
@@ -29,7 +29,7 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 | Order Item: Discount | discount | Number | The discount \(if any\) for the given line item. |
 | Order Item: Subtotal | subtotal | Number | The calculated subtotal for the given product and quantity.  |
 
-### Order Object
+### Order Summary \(Orders Object\)
 
 | Display Name | Field Name | Data Type | Description |
 | :--- | :--- | :--- | :--- |
