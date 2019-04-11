@@ -23,7 +23,23 @@
 
 ## Examples & Samples
 
+{% hint style="info" %}
+The files below are only basic examples. 
+
+Refer to the Zaius schema section to learn about all available default fields and creating custom fields & objects.
+{% endhint %}
+
+### Customers
+
+{% file src="../.gitbook/assets/zaius\_customers\_example.csv" %}
+
+### Products
+
+{% file src="../.gitbook/assets/zaius\_products\_example.csv" %}
+
 ### Orders
+
+{% file src="../.gitbook/assets/zaius\_orders\_example.csv" %}
 
 {% hint style="info" %}
 Refer to[ Orders documentation](../zaius-schema/orders.md#fields) for field descriptions and data types.
@@ -62,5 +78,23 @@ Order Line Item fields \(and the associated events\) cannot be updated in the fu
 Prefix all custom event fields with `item_` to indicate the field exists on the Event object, otherwise it will be assumed you attempting to update the Orders object.
 {% endhint %}
 
+### Events
+
+{% file src="../.gitbook/assets/zaius\_events\_example.csv" %}
+
 ### Lists
+
+{% hint style="warning" %}
+**Uploading a List file without an "action" column assumes a subscription for each email**
+{% endhint %}
+
+#### Upload to Single List
+
+{% file src="../.gitbook/assets/zaius\_list\_yourlistidhere.csv" %}
+
+**Upload to Multiple Lists**
+
+{% file src="../.gitbook/assets/zaius\_list\_example.csv" %}
+
+### Consent
 

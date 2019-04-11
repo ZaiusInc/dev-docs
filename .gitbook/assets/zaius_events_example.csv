@@ -1,0 +1,3 @@
+type,action,hostname,page,ts,product_id,email
+product,add_to_cart,zaius.com,/pricing,1454033935,zp_00143,bob@example.com
+pageview,,zaius.com,/thank-you,1454034013,,bob@example.com

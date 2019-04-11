@@ -1,0 +1,4 @@
+list_id,email,action
+foo,a@b.com,subscribe
+bar,c@d.com,subscribe
+mylist,e@f.com,subscribe

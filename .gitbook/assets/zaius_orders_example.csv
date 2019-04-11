@@ -1,0 +1,5 @@
+email,action,order_id,total,discount,subtotal,tax,shipping,coupon_code,item_product_id,item_sku,item_price,item_quantity,item_discount,item_subtotal,ts
+bob@example.com,purchase,15,13.75,5,13.5,1.35,19,ZAIUS20,ZAIUS T-Shirt,Z-1453,13.75,1,5,12.5,1508773855
+bob@example.com,purchase,15,13.75,5,13.5,1.35,19,ZAIUS20,ZAIUS Baseball Cap,Z-1353,6.75,1,95,0.25,1508773855
+bob@example.com,purchase,16,13.75,5,13.5,1.35,19,ZAIUS20,ZAIUS T-Shirt,Z-1453,13.75,1,5,12.5,1508773855
+box@example.com,refund,2,-10,0,-10,0,1,coupon,123,Z-1345,18,1,0,-10,1508773855
