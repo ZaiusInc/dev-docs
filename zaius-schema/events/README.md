@@ -1,8 +1,12 @@
 # Events
 
-Events describe Customer actions. Events are composed of a Type, Action and additional metadata via object fields. 
+Events describe Customer actions. Events are composed of a Type, Action and additional metadata via fields on the event.
 
-The Event Type is a categorical name associated with the event. An Action is an activity a user did. For example, `order` and `product` are Event Types while `purchase`, `return`, `add_to_cart`, `detail` would be actions.
+The **Event Type** is a categorical name associated with the event. 
+
+The **Event Action** is the activity a user did within that event type.
+
+For example, `order` and `product` are Event Types while `purchase`, `return`, `add_to_cart`, `detail` would be actions.
 
 {% hint style="info" %}
 At minimum, events require an event type and an identifier to associate the event with a customer.
