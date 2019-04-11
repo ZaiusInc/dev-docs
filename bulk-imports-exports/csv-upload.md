@@ -9,7 +9,67 @@
 * Any field containing a double quote must be quoted. The escape character for an embedded quote is a second quote character. \(For example: `"Customers think this product is ""Amazing!"""`\)
 * Each record must contain exactly the same number of fields as the header does
 * No carriage return \(`\r`\) or newline \(`\n`\) may exist within a record
-* Timestamps must be formatted as ISO 8601 format or unix epoch \(seconds since January 1, 1970\). Examples: `1435708800`, `2015-07-01T00:00:00-00:00`, `2015-07-01T12:30:00-07:00`. Note: If time and time zone are not provided the time is assumed be 12am UTC.
+* Date / Time fields must be formatted as follows:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Date Format</th>
+      <th style="text-align:left">Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Unix Timestamp / Epoch</td>
+      <td style="text-align:left"><code>1435708800</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a>
+      </td>
+      <td style="text-align:left">
+        <p><code>2019-04-11T18:43:29+00:00</code>
+        </p>
+        <p><code>2019-04-11T18:43:29Z</code>
+        </p>
+        <p><code>2019-04-11</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">%Y-%m-%d %H:%M:%S%:z</td>
+      <td style="text-align:left"><code>2014-09-01 13:34:08+00:00</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">%Y-%m-%d %H:%M:%S</td>
+      <td style="text-align:left"><code>2014-09-01 13:34:08</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&apos;%m/%d/%y %H:%M</td>
+      <td style="text-align:left"><code>09/01/14 13:34</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">%m/%d/%y %H:%M:%S</td>
+      <td style="text-align:left"><code>09/01/14 13:34:08</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">%m/%d/%Y %H:%M:%S</td>
+      <td style="text-align:left"><code>09/01/2014 13:34:08</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">%m/%d/%Y %H:%M</td>
+      <td style="text-align:left"><code>09/01/2014 13:34</code>
+      </td>
+    </tr>
+  </tbody>
+</table>{% hint style="warning" %}
+If time and time zone are not provided the time is assumed be 12am UTC.
+{% endhint %}
 
 ## Error Handling
 

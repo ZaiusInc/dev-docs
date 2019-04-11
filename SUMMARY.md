@@ -22,6 +22,5 @@
 ## Troubleshooting
 
 * [Event Inspector](troubleshooting/event-inspector.md)
-* [Data Source Fields](troubleshooting/data-source-fields.md)
-* [Reports](troubleshooting/reports.md)
+* [Activity Log](troubleshooting/activity-log.md)
 
