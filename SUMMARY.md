@@ -14,10 +14,10 @@
 * [Orders](zaius-schema/orders.md)
 * [Custom Schema](zaius-schema/custom-schema.md)
 
-## Bulk Imports
+## Bulk Imports / Exports
 
-* [CSV Upload](bulk-imports/csv-upload.md)
-* [S3 Upload](bulk-imports/s3-upload.md)
+* [CSV Upload](bulk-imports-exports/csv-upload.md)
+* [Amazon S3](bulk-imports-exports/s3.md)
 
 ## Troubleshooting
 

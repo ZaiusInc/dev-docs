@@ -11,6 +11,10 @@
 * No carriage return \(`\r`\) or newline \(`\n`\) may exist within a record
 * Timestamps must be formatted as ISO 8601 format or unix epoch \(seconds since January 1, 1970\). Examples: `1435708800`, `2015-07-01T00:00:00-00:00`, `2015-07-01T12:30:00-07:00`. Note: If time and time zone are not provided the time is assumed be 12am UTC.
 
+## Error Handling
+
+Any record that contains an invalid field will be ignored. If more than 1% of the data is invalid, the entire file will be rejected. The Activity Log will show the status of the uploads, any errors generated, and a success entry if the data is loaded successfully.
+
 ## File Naming
 
 | Object | File Name Prefix |
@@ -96,5 +100,15 @@ Prefix all custom event fields with `item_` to indicate the field exists on the 
 
 {% file src="../.gitbook/assets/zaius\_list\_example.csv" %}
 
-### Consent
+### Custom Objects
+
+{% hint style="info" %}
+Replace `customobject` with the name of the custom object
+{% endhint %}
+
+{% file src="../.gitbook/assets/zaius\_customobject\_example.csv" %}
+
+{% hint style="warning" %}
+All custom object updates must include the primary key \(or keys in the case of composite keys\) in the file \(e.g. `id`\)
+{% endhint %}
 

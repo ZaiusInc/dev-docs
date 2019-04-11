@@ -50,7 +50,7 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 
 ## Importing Historical Orders
 
-The recommended method of sending historical Order data is to send the data [via API](https://api.developer.zaius.com/#tag/Events/operation/insertEvents) or CSV. CSV files can be [uploaded in the UI](../bulk-imports/csv-upload.md) or [via Amazon \(AWS\) S3](../bulk-imports/s3-upload.md). The fields utilized in either method adhere to the schema outlined above.
+The recommended method of sending historical Order data is to send the data [via API](https://api.developer.zaius.com/#tag/Events/operation/insertEvents) or CSV. CSV files can be [uploaded in the UI](../bulk-imports-exports/csv-upload.md) or [via Amazon \(AWS\) S3](../bulk-imports-exports/s3.md). The fields utilized in either method adhere to the schema outlined above.
 
 ## Returns, Refunds & Cancellations
 

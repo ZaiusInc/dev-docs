@@ -40,5 +40,7 @@ There are a number of methods to update the Products object:
 Updates to the Products object should adhere to the schema defined above.
 {% endhint %}
 
-{% page-ref page="../bulk-imports/s3-upload.md" %}
+{% page-ref page="../bulk-imports-exports/csv-upload.md" %}
+
+{% page-ref page="../bulk-imports-exports/s3.md" %}
 
