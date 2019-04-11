@@ -25,6 +25,20 @@ Any record that contains an invalid field will be ignored. If more than 1% of th
 | Events | `zaius_events` |
 | Lists | `zaius_list` |
 
+## Where to upload?
+
+### UI
+
+![](../.gitbook/assets/image.png)
+
+1. Go to [Account Settings -&gt; Integrations](https://app.zaius.com/?=#/integrations)
+2. Select **Upload CSV -&gt; Browse**
+3. Select the file that follows the file name and format conventions outlined below
+
+#### Files can also be imported via Amazon S3:
+
+{% page-ref page="s3.md" %}
+
 ## Examples & Samples
 
 {% hint style="info" %}
