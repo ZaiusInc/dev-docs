@@ -57,7 +57,7 @@ The recommended method of sending historical Order data is to send the data [via
 To process returns, refunds and cancellations, send an event with an event type of `order` and one of the following event actions:
 
 {% hint style="info" %}
-The following event actions treat `-30` and `30` as a subtotal identically. They both subtract from the original order.
+The following event actions treat `-30` and `30` as a subtotal identically. They both create new events that subtract from the original order total.
 {% endhint %}
 
 1. `return` - a customer has returned some or all of the items in an order and been refunded.

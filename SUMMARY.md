@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Quick Start](README.md)
-* [v3 API](https://zaius.services/docs/zaius_api.html)
+* [API](https://zaius.services/docs/zaius_api.html)
 * [Web SDK](https://developer.zaius.com/web-sdk)
 
 ## Zaius Schema
@@ -10,8 +10,7 @@
   * [User Resolution](zaius-schema/customers/user-resolution.md)
 * [Events](zaius-schema/events/README.md)
   * [Standard Events](zaius-schema/events/standard-events.md)
-* [Products](zaius-schema/products/README.md)
-  * [Product API](https://api.developer.zaius.com/#tag/Products/operation/upsertProducts)
+* [Products](zaius-schema/products.md)
 * [Orders](zaius-schema/orders.md)
 * [Custom Schema](zaius-schema/custom-schema.md)
 
