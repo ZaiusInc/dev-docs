@@ -18,13 +18,13 @@ Events & Orders refer to this object to get additional metadata about a product 
 
 | Display Name | Field Name | Data Type | Description |
 | :--- | :--- | :--- | :--- |
-| Parent Product ID | parent\_product\_id | Text |  |
-| Name | name | Text |  |
-| Brand | brand | Text |  |
-| SKU | sku | Text |  |
-| UPC | upc | Text |  |
-| Image URL | image\_url | Text |  |
-| Price | price | Number |  |
+| Parent Product ID | parent\_product\_id | Text | A reference to another product in the table that groups the products together |
+| Name | name | Text | The name of the product displayed to your customers |
+| Brand | brand | Text | The brand of the product |
+| SKU | sku | Text | The unique SKU of the product |
+| UPC | upc | Text | The unique UPC of the product |
+| Image URL | image\_url | Text | The URL path to the product's image |
+| Price | price | Number | The price of the product |
 
 ## Importing & Updating Products
 
