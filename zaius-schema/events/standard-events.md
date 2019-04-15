@@ -38,11 +38,18 @@ Orders are a special type of event. Refer to the [Orders documentation ](../orde
 
 ## Navigation
 
-
+| `type` | `action` | `search_term` |
+| :--- | :--- | :--- |
+| navigation | search | cameras |
+| navigation | sort |  |
+| navigation | filter |  |
 
 ## Ad
 
-## Wish List
+| `type` | `action` |
+| :--- | :--- |
+| advertisement | impression |
+| advertisement | click |
 
 
 
