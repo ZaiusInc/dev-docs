@@ -20,7 +20,6 @@
 ## Troubleshooting
 
 * [Event Inspector](troubleshooting/event-inspector.md)
-* [Activity Log](troubleshooting/activity-log.md)
 
 ## Important Links
 
