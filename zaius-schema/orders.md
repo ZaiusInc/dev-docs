@@ -34,19 +34,19 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 | Display Name | Field Name | Data Type | Description |
 | :--- | :--- | :--- | :--- |
 | Order ID | order\_id | Text | The unique identifier related to this order.Subtotal |
-| Tax |  |  |  |
-| Discount |  |  |  |
-| Shipping |  |  |  |
-| Subtotal |  |  |  |
-| Total |  |  |  |
-| Billing Address |  |  |  |
-| Shipping Address |  |  |  |
-| Phone |  |  |  |
-| Coupon Code |  |  |  |
-| First Name |  |  |  |
-| Last Name |  |  |  |
-| Name |  |  |  |
-| Email |  |  |  |
+| Tax | tax | Number |  |
+| Discount | discount | Number |  |
+| Shipping | shipping | Number |  |
+| Subtotal | subtotal | Number |  |
+| Total | total | Number |  |
+| Billing Address | bill\_address | Text | The billing address for the order, lines delimited by commas |
+| Shipping Address | ship\_address | Text | The shipping address for the order, lines delimited by commas |
+| Phone | phone | Text | The phone number for the order in [E.164 format](https://en.wikipedia.org/wiki/E.164) |
+| Coupon Code | coupon\_code | Text |  |
+| First Name | first\_name | Text |  |
+| Last Name | last\_name | Text |  |
+| Name | name | Text |  |
+| Email | email | Text |  |
 
 ## Importing Historical Orders
 
