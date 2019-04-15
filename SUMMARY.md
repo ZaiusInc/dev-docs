@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Quick Start](README.md)
-* [Web SDK](https://developer.zaius.com/web-sdk)
-* [API Reference](https://zaius.services/docs/zaius_api.html)
 
 ## Zaius Schema
 
@@ -23,4 +21,9 @@
 
 * [Event Inspector](troubleshooting/event-inspector.md)
 * [Activity Log](troubleshooting/activity-log.md)
+
+## Important Links
+
+* [API Reference](https://zaius.services/docs/zaius_api.html)
+* [Web SDK](https://developer.zaius.com/web-sdk)
 
