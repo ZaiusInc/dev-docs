@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Quick Start](README.md)
-* [API Reference](https://zaius.services/docs/zaius_api.html)
 * [Web SDK](https://developer.zaius.com/web-sdk)
+* [API Reference](https://zaius.services/docs/zaius_api.html)
 
 ## Zaius Schema
 
