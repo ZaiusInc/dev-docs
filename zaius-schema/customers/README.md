@@ -4,7 +4,7 @@ Customers are at the core of Zaius. Customers are composed of fields that are ty
 
 {% api-method method="post" host="https://api.zaius.com" path="/v3/profiles" %}
 {% api-method-summary %}
-Update Customer
+API
 {% endapi-method-summary %}
 
 {% api-method-description %}
