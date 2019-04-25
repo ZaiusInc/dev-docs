@@ -8,6 +8,8 @@ The **Event Action** is the activity a user did within that event type.
 
 For example, `order` and `product` are Event Types while `purchase`, `return`, `add_to_cart`, `detail` would be actions.
 
+{% page-ref page="examples.md" %}
+
 {% hint style="info" %}
 At minimum, events require an event type and an identifier to associate the event with a customer.
 {% endhint %}

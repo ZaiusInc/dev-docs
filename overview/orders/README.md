@@ -12,6 +12,8 @@ i.e. An order with three line items would generate three order events.
 
 Top-level information about the order \(e.g. billing address, coupon, tax\) are stored in the Orders object and linked to order events on Order ID \(`order_id`\). 
 
+{% page-ref page="examples.md" %}
+
 ## Fields
 
 ### Order Line Items \(Events\)
