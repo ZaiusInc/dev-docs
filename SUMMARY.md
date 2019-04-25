@@ -5,12 +5,12 @@
 ## Overview
 
 * [Customers](overview/customers/README.md)
+  * [Consent](overview/customers/consent-1/README.md)
+    * [Code Examples](overview/customers/consent-1/examples.md)
+  * [Lists](overview/customers/lists/README.md)
+    * [Code Examples](overview/customers/lists/examples.md)
   * [User Resolution](overview/customers/user-resolution.md)
   * [Code Examples](overview/customers/examples.md)
-* [Consent](overview/consent-1/README.md)
-  * [Code Examples](overview/consent-1/examples.md)
-* [Lists](overview/lists/README.md)
-  * [Code Examples](overview/lists/examples.md)
 * [Events](overview/events/README.md)
   * [Standard Events](overview/events/standard-events.md)
   * [Code Examples](overview/events/examples.md)
