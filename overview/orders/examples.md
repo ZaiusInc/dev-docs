@@ -188,7 +188,7 @@ Could not find a cake matching this query.
     "email": "bob@gmail.com",
   },
   "data": {
-    "ts": 123456789, // the time of the order return | refund | cancel
+    "ts": 123456789, // (optional) the time of the order return | refund | cancel
     "order": {
       "order_id": "OR345",
       "total": -100.00
