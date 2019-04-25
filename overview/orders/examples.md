@@ -80,6 +80,7 @@ Could not find a cake matching this query.
     "email": "bob@gmail.com",
   },
   "data": {
+    "ts": 123456789, // the time of the order purchase
     "order": {
       "order_id": "OR345",
       "total": 109.65,
@@ -187,6 +188,7 @@ Could not find a cake matching this query.
     "email": "bob@gmail.com",
   },
   "data": {
+    "ts": 123456789, // the time of the order return | refund | cancel
     "order": {
       "order_id": "OR345",
       "total": -10.00
