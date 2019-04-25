@@ -2,17 +2,17 @@
 
 * [Quick Start](README.md)
 
-## Zaius Schema
+## Overview
 
-* [Customers](zaius-schema/customers/README.md)
-  * [User Resolution](zaius-schema/customers/user-resolution.md)
-  * [Code Examples](zaius-schema/customers/examples.md)
-* [Events](zaius-schema/events/README.md)
-  * [Standard Events](zaius-schema/events/standard-events.md)
-* [Products](zaius-schema/products.md)
-* [Orders](zaius-schema/orders/README.md)
-  * [Code Examples](zaius-schema/orders/examples.md)
-* [Custom Schema](zaius-schema/custom-schema.md)
+* [Customers](overview/customers/README.md)
+  * [User Resolution](overview/customers/user-resolution.md)
+  * [Code Examples](overview/customers/examples.md)
+* [Events](overview/events/README.md)
+  * [Standard Events](overview/events/standard-events.md)
+* [Products](overview/products.md)
+* [Orders](overview/orders/README.md)
+  * [Code Examples](overview/orders/examples.md)
+* [Custom Schema](overview/custom-schema.md)
 
 ## Bulk Imports / Exports
 

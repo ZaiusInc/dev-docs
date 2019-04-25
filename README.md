@@ -8,11 +8,11 @@ Zaius is a B2C CRM that enables omni-channel campaigns.
 
 At the core of Zaius are **Customers**. 
 
-{% page-ref page="zaius-schema/customers/" %}
+{% page-ref page="overview/customers/" %}
 
 Every customer has a record of **Events** that they have performed over time. Every event is classified by a **Event Type** \(e.g. order, product, email\) and **Event Action** \(e.g. purchase, view, open\) and additional metadata stored in **Fields** \(e.g. product\_id\). 
 
-{% page-ref page="zaius-schema/events/" %}
+{% page-ref page="overview/events/" %}
 
 Customers and Events in Zaius are considered **Objects**, similar to a spreadsheet or a database table. Objects consist of **Fields** to store metadata and information about the data within the object. 
 
@@ -22,7 +22,7 @@ An example: the Event object has a `ts` field to store the time at which an even
 
 Zaius supports the addition of **Custom Fields** and **Custom Objects** to support customization of the schema to meet unique business needs \(e.g. a Concert Tickets object\).
 
-{% page-ref page="zaius-schema/custom-schema.md" %}
+{% page-ref page="overview/custom-schema.md" %}
 
 ## What is a Zaius account?
 

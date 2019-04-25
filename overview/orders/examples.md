@@ -1,5 +1,9 @@
 # Code Examples
 
+{% hint style="warning" %}
+Refer to the API and SDK references for complete documentation. 
+{% endhint %}
+
 {% api-method method="post" host="https://api.zaius.com/v3" path="/events" %}
 {% api-method-summary %}
 Purchase
