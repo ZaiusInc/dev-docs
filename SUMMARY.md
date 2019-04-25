@@ -9,6 +9,7 @@
   * [Code Examples](overview/customers/examples.md)
 * [Events](overview/events/README.md)
   * [Standard Events](overview/events/standard-events.md)
+  * [Code Examples](overview/events/examples.md)
 * [Products](overview/products.md)
 * [Orders](overview/orders/README.md)
   * [Code Examples](overview/orders/examples.md)

@@ -1,6 +1,6 @@
 # Code Examples
 
-{% api-method method="post" host="https://api.zaius.com" path="/v3/profiles" %}
+{% api-method method="post" host="https://api.zaius.com/v3/" path="profiles" %}
 {% api-method-summary %}
 Update Customers
 {% endapi-method-summary %}

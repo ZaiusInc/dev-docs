@@ -113,7 +113,7 @@ Could not find a cake matching this query.
 
 {% api-method method="post" host="https://api.zaius.com/v3" path="/events" %}
 {% api-method-summary %}
-Return or Cancellation
+Return, Refund, Cancel
 {% endapi-method-summary %}
 
 {% api-method-description %}
