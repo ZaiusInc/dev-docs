@@ -24,19 +24,19 @@ This endpoint allows you to get free cakes.
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="identifiers" type="string" required=true %}
+{% api-method-parameter name="identifiers" type="object" required=true %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="data" type="string" required=true %}
+{% api-method-parameter name="data" type="object" required=true %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="data.order" type="string" required=true %}
+{% api-method-parameter name="data.order" type="object" required=true %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="data.order.items" type="string" required=true %}
+{% api-method-parameter name="data.order.items" type="array" required=true %}
 
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -80,7 +80,7 @@ Could not find a cake matching this query.
     "email": "bob@gmail.com",
   },
   "data": {
-    "ts": 123456789, // the time of the order purchase
+    "ts": 123456789, // (optional) the time of the order purchase
     "order": {
       "order_id": "OR345",
       "total": 109.65,
@@ -132,19 +132,19 @@ This endpoint allows you to get free cakes.
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="identifiers" type="string" required=true %}
+{% api-method-parameter name="identifiers" type="object" required=true %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="data" type="string" required=true %}
+{% api-method-parameter name="data" type="object" required=true %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="data.order" type="string" required=true %}
+{% api-method-parameter name="data.order" type="object" required=true %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="data.order.items" type="string" required=true %}
+{% api-method-parameter name="data.order.items" type="array" required=true %}
 
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
