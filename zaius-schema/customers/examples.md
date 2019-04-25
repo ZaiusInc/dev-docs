@@ -1,7 +1,5 @@
 # Code Examples
 
-## API
-
 {% api-method method="post" host="https://api.zaius.com" path="/v3/profiles" %}
 {% api-method-summary %}
 Update Customers
