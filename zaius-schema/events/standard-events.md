@@ -33,7 +33,7 @@ The Web SDK will automatically populate the `page` field when event type is `pag
 ## Orders
 
 {% hint style="danger" %}
-Orders are a special type of event. Refer to the [Orders documentation ](../orders.md)for more information.
+Orders are a special type of event. Refer to the [Orders documentation ](../orders/)for more information.
 {% endhint %}
 
 ## Navigation

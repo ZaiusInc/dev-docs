@@ -120,7 +120,7 @@ Refer to the Zaius schema section to learn about all available default fields an
 {% file src="../.gitbook/assets/zaius\_orders\_example.csv" %}
 
 {% hint style="info" %}
-Refer to[ Orders documentation](../zaius-schema/orders.md#fields) for field descriptions and data types.
+Refer to[ Orders documentation](../zaius-schema/orders/#fields) for field descriptions and data types.
 {% endhint %}
 
 * Shared Fields

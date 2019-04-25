@@ -2,7 +2,7 @@
 
 ## API
 
-{% api-method method="post" host="https://api.zaius.com" path="/v3/customers" %}
+{% api-method method="post" host="https://api.zaius.com" path="/v3/profiles" %}
 {% api-method-summary %}
 Update Customers
 {% endapi-method-summary %}
@@ -34,21 +34,12 @@ Cake successfully retrieved.
 
 ```javascript
 {
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "message": "Ain't no cake like that."
+  "attributes": {
+    "gender": "M",
+    "first_name": "Johnny",
+    "last_name": "Zaius",
+    "email": "johnny@zaius.com"
+  }
 }
 ```
 {% endapi-method-response-example %}

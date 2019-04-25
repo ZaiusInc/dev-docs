@@ -10,7 +10,8 @@
 * [Events](zaius-schema/events/README.md)
   * [Standard Events](zaius-schema/events/standard-events.md)
 * [Products](zaius-schema/products.md)
-* [Orders](zaius-schema/orders.md)
+* [Orders](zaius-schema/orders/README.md)
+  * [Code Examples](zaius-schema/orders/examples.md)
 * [Custom Schema](zaius-schema/custom-schema.md)
 
 ## Bulk Imports / Exports

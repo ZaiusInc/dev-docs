@@ -17,7 +17,7 @@ Top-level information about the order \(e.g. billing address, coupon, tax\) are 
 ### Order Line Items \(Events\)
 
 {% hint style="danger" %}
-All Zaius events \(and, as a result, order line items\) are immutable, **meaning that cannot be changed once uploaded to Zaius.** If you need to process returns, refunds or cancellations [please refer to the relevant documentation.](orders.md#returns-refunds-and-cancellations)
+All Zaius events \(and, as a result, order line items\) are immutable, **meaning that cannot be changed once uploaded to Zaius.** If you need to process returns, refunds or cancellations [please refer to the relevant documentation.](./#returns-refunds-and-cancellations)
 {% endhint %}
 
 | Display Name | Field Name | Data Type | Description |
@@ -50,7 +50,7 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 
 ## Importing Historical Orders
 
-The recommended method of sending historical Order data is to send the data [via API](https://api.developer.zaius.com/#tag/Events/operation/insertEvents) or CSV. CSV files can be [uploaded in the UI](../bulk-imports-exports/csv-upload.md) or [via Amazon \(AWS\) S3](../bulk-imports-exports/s3.md). The fields utilized in either method adhere to the schema outlined above.
+The recommended method of sending historical Order data is to send the data [via API](https://api.developer.zaius.com/#tag/Events/operation/insertEvents) or CSV. CSV files can be [uploaded in the UI](../../bulk-imports-exports/csv-upload.md) or [via Amazon \(AWS\) S3](../../bulk-imports-exports/s3.md). The fields utilized in either method adhere to the schema outlined above.
 
 ## Returns, Refunds & Cancellations
 
