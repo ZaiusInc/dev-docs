@@ -6,6 +6,7 @@
 
 * [Customers](zaius-schema/customers/README.md)
   * [User Resolution](zaius-schema/customers/user-resolution.md)
+  * [Code Examples](zaius-schema/customers/examples.md)
 * [Events](zaius-schema/events/README.md)
   * [Standard Events](zaius-schema/events/standard-events.md)
 * [Products](zaius-schema/products.md)
