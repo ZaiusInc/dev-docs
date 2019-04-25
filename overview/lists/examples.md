@@ -41,11 +41,14 @@ the list ID of the list to subscribe to or unsubscribe from
 {% endapi-method %}
 
 ```javascript
-{
+[{
 	"list_id": true,
 	"email": "johnny@zaius.com",
-	"subscribed": true | false
-}
+	"subscribed": true | false,
+	"event": {
+		"ts": 123456789 // the time that the subscription changed
+	}
+}]
 ```
 
 ## Web

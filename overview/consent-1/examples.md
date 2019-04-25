@@ -12,11 +12,11 @@ Allows clients to update consent \(opt-in vs. opt-out\) for a provided email.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="email" type="string" required=false %}
+{% api-method-parameter name="email" type="string" required=true %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="opted\_in" type="boolean" required=false %}
+{% api-method-parameter name="opted\_in" type="boolean" required=true %}
 
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
