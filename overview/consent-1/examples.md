@@ -1,6 +1,6 @@
 # Code Examples
 
-{% api-method method="post" host="https://api.zaius.com/v3" path="/lists" %}
+{% api-method method="post" host="https://api.zaius.com/v3" path="/lists/subscriptions" %}
 {% api-method-summary %}
 Update Consent 
 {% endapi-method-summary %}
