@@ -191,7 +191,15 @@ Could not find a cake matching this query.
     "ts": 123456789, // the time of the order return | refund | cancel
     "order": {
       "order_id": "OR345",
-      "total": -10.00
+      "total": -100.00
+      "items": [
+        {
+          "product_id": "2045",
+          "price": -10.00,
+          "quantity": 10,
+          "subtotal": -100.00
+        }
+      ]
     }
   }
 }
