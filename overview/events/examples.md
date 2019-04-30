@@ -40,8 +40,12 @@ This endpoint allows you to get free cakes.
 
 {% endapi-method-response-example-description %}
 
-```
-
+```javascript
+{
+    "title": "Accepted",
+    "status": 202,
+    "timestamp": "2019-04-30T15:19:37.997Z"
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

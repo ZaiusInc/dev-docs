@@ -28,8 +28,13 @@ Allows clients to update consent \(opt-in vs. opt-out\) for a provided email.
 
 {% endapi-method-response-example-description %}
 
-```
-
+```javascript
+{
+	{
+		"opted_in": true,
+		"email": "johnny@zaius.com"
+	}
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

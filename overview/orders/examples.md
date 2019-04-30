@@ -10,7 +10,7 @@ Purchase
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -48,8 +48,12 @@ This endpoint allows you to get free cakes.
 
 {% endapi-method-response-example-description %}
 
-```
-
+```javascript
+{
+    "title": "Accepted",
+    "status": 202,
+    "timestamp": "2019-04-30T15:24:08.816Z"
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -61,7 +65,7 @@ This endpoint allows you to get free cakes.
   "type": "order",
   "action": "purchase",
   "identifiers": {
-    "email": "bob@gmail.com",
+    "email": "bob@gmail.com"
   },
   "data": {
     "ts": 123456789, // (optional) the time of the order purchase
@@ -102,7 +106,7 @@ Return, Refund, Cancel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -140,8 +144,12 @@ This endpoint allows you to get free cakes.
 
 {% endapi-method-response-example-description %}
 
-```
-
+```javascript
+{
+    "title": "Accepted",
+    "status": 202,
+    "timestamp": "2019-04-30T15:24:08.816Z"
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

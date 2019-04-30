@@ -32,8 +32,19 @@ the list ID of the list to subscribe to or unsubscribe from
 
 {% endapi-method-response-example-description %}
 
-```
-
+```javascript
+{
+    "updates": [
+        {
+            "list_id": "newsletter",
+            "email": "johnny@zaius.com",
+            "subscribed": true,
+            "event": {
+                "ts": 123456789
+            }
+        }
+    ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -42,9 +53,9 @@ the list ID of the list to subscribe to or unsubscribe from
 
 ```javascript
 [{
-	"list_id": true,
+	"list_id": "newsletter",
 	"email": "johnny@zaius.com",
-	"subscribed": true | false,
+	"subscribed": false,
 	"event": {
 		"ts": 123456789 // the time that the subscription changed
 	}

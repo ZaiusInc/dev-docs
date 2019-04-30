@@ -15,12 +15,6 @@ This endpoint allows you to update customer attributes and identifiers.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="z-api-key" type="string" required=true %}
-Authentication token.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
 {% api-method-body-parameters %}
 {% api-method-parameter name="attributes" type="object" required=true %}
 Attributes to update for the customer.
@@ -31,17 +25,14 @@ Attributes to update for the customer.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+
 {% endapi-method-response-example-description %}
 
 ```javascript
 {
-  "attributes": {
-    "gender": "M",
-    "first_name": "Johnny",
-    "last_name": "Zaius",
-    "email": "johnny@zaius.com"
-  }
+    "title": "Accepted",
+    "status": 202,
+    "timestamp": "2019-04-30T15:22:56.923Z"
 }
 ```
 {% endapi-method-response-example %}
