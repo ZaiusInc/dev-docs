@@ -30,6 +30,6 @@
 
 ## Important Links
 
-* [API Reference](https://zaius.services/docs/zaius_api.html)
+* [API Reference](https://api.developer.zaius.com)
 * [Web SDK](https://developer.zaius.com/web-sdk)
 

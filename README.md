@@ -4,6 +4,8 @@
 
 Zaius is a B2C CRM that enables omni-channel campaigns.
 
+## How can I get started using
+
 ## How does Zaius store data?
 
 At the core of Zaius are **Customers**. 
