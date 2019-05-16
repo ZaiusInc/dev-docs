@@ -53,7 +53,7 @@ crontab -e
 {% code-tabs %}
 {% code-tabs-item title="crontab" %}
 ```bash
-15 0 0 0 0 /path/to/your/script/zaius-export.sh
+@daily /path/to/your/script/zaius-export.sh
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

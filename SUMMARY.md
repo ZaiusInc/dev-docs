@@ -23,7 +23,7 @@
 
 * [CSV Upload](bulk-imports-exports/csv-upload.md)
 * [Amazon S3](bulk-imports-exports/s3.md)
-* [Google Cloud Storage](bulk-imports-exports/google-data-studio.md)
+* [Google Cloud Storage](bulk-imports-exports/google-cloud-storage.md)
 
 ## Troubleshooting
 
