@@ -24,6 +24,7 @@
 * [CSV Upload](bulk-imports-exports/csv-upload.md)
 * [Amazon S3](bulk-imports-exports/s3.md)
 * [Google Cloud Storage](bulk-imports-exports/google-cloud-storage.md)
+* [Tableau](https://www.tableau.com/about/blog/2017/5/connect-your-s3-data-amazon-athena-connector-tableau-103-71105)
 
 ## Troubleshooting
 
