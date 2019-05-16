@@ -23,13 +23,15 @@
 
 * [CSV Upload](bulk-imports-exports/csv-upload.md)
 * [Amazon S3](bulk-imports-exports/s3.md)
+* [Google Cloud Storage](bulk-imports-exports/google-data-studio.md)
 
 ## Troubleshooting
 
 * [Event Inspector](troubleshooting/event-inspector.md)
 
-## Important Links
+## Resources
 
 * [API Reference](https://api.developer.zaius.com)
 * [Web SDK](https://developer.zaius.com/web-sdk)
+* [Export API](https://api.developer.zaius.com/#tag/Export)
 
