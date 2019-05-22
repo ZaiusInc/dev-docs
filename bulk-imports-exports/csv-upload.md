@@ -117,7 +117,7 @@ Refer to the Zaius schema section to learn about all available default fields an
 
 ### Orders
 
-{% file src="../.gitbook/assets/zaius\_orders\_example.csv" %}
+{% file src="../.gitbook/assets/zaius\_orders\_example.csv" caption="zaius\_orders\_example.csv" %}
 
 {% hint style="info" %}
 Refer to[ Orders documentation](../overview/orders/#fields) for field descriptions and data types.
