@@ -33,6 +33,7 @@
 ## Resources
 
 * [API Reference](https://api.developer.zaius.com)
+* [GDPR API](https://old.developers.zaius.com/reference#gdpr-optout)
 * [Web SDK](https://developer.zaius.com/web-sdk)
 * [Export API](https://api.developer.zaius.com/#tag/Export)
 
