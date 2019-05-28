@@ -35,5 +35,7 @@
 * [API Reference](https://api.developer.zaius.com)
 * [GDPR API](https://old.developers.zaius.com/reference#gdpr-optout)
 * [Web SDK](https://developer.zaius.com/web-sdk)
+* [iOS Mobile Push](https://developer.zaius.com/ios-sdk)
+* [Android Mobile Push](https://developer.zaius.com/android-sdk)
 * [Export API](https://api.developer.zaius.com/#tag/Export)
 
