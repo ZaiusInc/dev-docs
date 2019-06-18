@@ -2,6 +2,10 @@
 
 ## File Formatting
 
+{% hint style="danger" %}
+Values that are blank,`""` or `null` will empty the field. If you need to persist fields use Zaius APIs.
+{% endhint %}
+
 * Values must be `UTF-8` encoded
 * Values must be comma delimited
 * Records must end with a newline \(`\n`\)
