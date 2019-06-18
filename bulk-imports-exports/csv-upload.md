@@ -3,7 +3,7 @@
 ## File Formatting
 
 {% hint style="danger" %}
-Values that are blank,`""` or `null` will empty the field. If you need to persist fields use Zaius APIs.
+Values that are blank,`""` or `null` will empty the field.
 {% endhint %}
 
 * Values must be `UTF-8` encoded
