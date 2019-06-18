@@ -3,7 +3,9 @@
 ## File Formatting
 
 {% hint style="danger" %}
-Values that are blank,`""` or `null` will empty the field.
+**Values that are blank,`""` or `null` will empty the field.** 
+
+For example, if you upload a file with a `gender` column and customer record without that column filled will empty what is presently on the customer record.
 {% endhint %}
 
 * Values must be `UTF-8` encoded
