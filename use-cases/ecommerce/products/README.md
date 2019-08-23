@@ -26,6 +26,17 @@ Events & Orders refer to this object to get additional metadata about a product 
 | Image URL | image\_url | Text | The URL path to the product's image |
 | Price | price | Number | The price of the product |
 
+## Product Events
+
+| `type` | `action` | `product_id` |
+| :--- | :--- | :--- |
+| product | detail | 123 |
+| product | listing | 123 |
+| product | add\_to\_cart | 123 |
+| product | remove\_from\_cart | 123 |
+| product | add\_to\_wishlist | 123 |
+| product | remove\_from\_wishlist | 123 |
+
 ## Importing & Updating Products
 
 The Products object contains the current state of your product inventory, it does not store historical information about the product. Common reasons to update the Products object:
@@ -39,8 +50,4 @@ There are a number of methods to update the Products object:
 {% hint style="info" %}
 Updates to the Products object should adhere to the schema defined above.
 {% endhint %}
-
-{% page-ref page="../bulk-imports-exports/csv-upload.md" %}
-
-{% page-ref page="../bulk-imports-exports/s3.md" %}
 

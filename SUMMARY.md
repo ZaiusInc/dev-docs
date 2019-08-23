@@ -1,41 +1,40 @@
 # Table of contents
 
-* [Quick Start](README.md)
+* [Get Started](README.md)
 
-## Overview
+## The Basics
 
-* [Customers](overview/customers/README.md)
-  * [Consent](overview/customers/consent-1/README.md)
-    * [Code Examples](overview/customers/consent-1/examples.md)
-  * [Lists](overview/customers/lists/README.md)
-    * [Code Examples](overview/customers/lists/examples.md)
-  * [User Resolution](overview/customers/user-resolution.md)
-  * [Code Examples](overview/customers/examples.md)
-* [Events](overview/events/README.md)
-  * [Standard Events](overview/events/standard-events.md)
-  * [Code Examples](overview/events/examples.md)
-* [Products](overview/products.md)
-* [Orders](overview/orders/README.md)
-  * [Code Examples](overview/orders/examples.md)
-* [Custom Schema](overview/custom-schema.md)
+* [Customers](the-basics/customers/README.md)
+  * [Reference](the-basics/customers/reference/README.md)
+    * [API](https://developer.zaius.com/api/rest-api/customers)
+    * [Web SDK](https://developer.zaius.com/web-sdk/customers/attributes)
+* [Events](the-basics/events/README.md)
+  * [Reference](the-basics/events/reference/README.md)
+    * [API](https://developer.zaius.com/api/rest-api/events)
+    * [Web SDK](https://developer.zaius.com/web-sdk/events/custom-events)
+    * [iOS SDK](https://developer.zaius.com/ios-sdk/sdk-methods/customers)
+    * [Android SDK](https://developer.zaius.com/android-sdk/sdk-methods/events)
+* [Objects & Fields](the-basics/objects-and-fields/README.md)
+  * [Creating Objects & Fields](the-basics/objects-and-fields/creating-objects-fields/README.md)
+    * [API](https://developer.zaius.com/api/rest-api/advanced/schema)
+  * [Updating Objects & Fields](the-basics/objects-and-fields/updating-objects/README.md)
+    * [API](https://developer.zaius.com/api/rest-api/objects)
 
-## Bulk Imports / Exports
+## Use Cases
 
-* [CSV Upload](bulk-imports-exports/csv-upload.md)
-* [Amazon S3](bulk-imports-exports/s3.md)
-* [Google Cloud Storage](bulk-imports-exports/google-cloud-storage.md)
-* [Tableau](https://www.tableau.com/about/blog/2017/5/connect-your-s3-data-amazon-athena-connector-tableau-103-71105)
-
-## Troubleshooting
-
-* [Event Inspector](troubleshooting/event-inspector.md)
-
-## Resources
-
-* [API Reference](https://api.developer.zaius.com)
-* [GDPR API](https://old.developers.zaius.com/reference#gdpr-optout)
-* [Web SDK](https://developer.zaius.com/web-sdk)
-* [iOS Mobile Push](https://developer.zaius.com/ios-sdk)
-* [Android Mobile Push](https://developer.zaius.com/android-sdk)
-* [Export API](https://api.developer.zaius.com/#tag/Export)
+* [Marketing & Channels](use-cases/marketing/README.md)
+  * [Consent](use-cases/marketing/consent-1/README.md)
+    * [API](https://developer.zaius.com/api/rest-api/consent)
+    * [Web SDK](https://developer.zaius.com/web-sdk/customers/consent)
+  * [Lists](use-cases/marketing/lists/README.md)
+    * [API](https://developer.zaius.com/api/rest-api/lists)
+    * [Web SDK](https://developer.zaius.com/web-sdk/customers/lists)
+* [eCommerce](use-cases/ecommerce/README.md)
+  * [Orders](use-cases/ecommerce/orders/README.md)
+    * [API](https://developer.zaius.com/api/rest-api/orders)
+    * [CSV](https://google.com)
+  * [Products](use-cases/ecommerce/products/README.md)
+    * [API](https://google.com)
+    * [CSV](https://google.com)
+* [Loyalty & Rewards](use-cases/loyalty-and-offers.md)
 

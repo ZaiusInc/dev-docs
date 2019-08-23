@@ -1,8 +1,8 @@
-# Custom Schema
+# Objects & Fields
 
-## Create Custom Fields
+## Fields
 
-Custom Fields allow storing custom metadata on any Zaius Object. Custom fields can store a variety of data:
+Fields allow storing custom metadata on any Zaius Object. Fields can store a variety of data:
 
 | Type | Notes |
 | :--- | :--- |
@@ -11,7 +11,7 @@ Custom Fields allow storing custom metadata on any Zaius Object. Custom fields c
 | Date & Time | Must be formatted as ISO 8601 format or UNIX epoch \(seconds since January 1, 1970\). Examples: `1435708800`, `2015-07-01T00:00:00-00:00`, `2015-07-01T12:30:00-07:00`Note: If time and timezone are not provided the time is assumed be 12am UTC. |
 | True / False | Must be one of `0`, `1`, `true` or `false` |
 
-### Create Custom Field **in UI**
+### Create Custom Fields **in UI**
 
 1. Go to [Account Settings -&gt; Objects & Fields](https://app.zaius.com/app?scope=#/custom_fields) and select **Create New Field.**
 2. Select the object that should own the field \(e.g. Events or Customers\).
