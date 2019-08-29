@@ -36,5 +36,5 @@
   * [Products](use-cases/ecommerce/products/README.md)
     * [API](https://docs.developers.zaius.com/api/rest-api/products)
     * [CSV](https://docs.developers.zaius.com/client-onboarding)
-* [Loyalty & Rewards](use-cases/loyalty-and-offers.md)
+* [Loyalty & Rewards](use-cases/loyalty-and-rewards.md)
 

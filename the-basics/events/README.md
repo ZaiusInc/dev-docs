@@ -28,7 +28,7 @@ For common events, based on use case \(e.g. products, orders, ratings, surveys, 
 
 {% page-ref page="../../use-cases/ecommerce/" %}
 
-{% page-ref page="../../use-cases/loyalty-and-offers.md" %}
+{% page-ref page="../../use-cases/loyalty-and-rewards.md" %}
 
 ### Standard Generic Events
 
