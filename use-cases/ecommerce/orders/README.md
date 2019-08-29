@@ -20,16 +20,59 @@ Top-level information about the order \(e.g. billing address, coupon, tax\) are 
 All Zaius events \(and, as a result, order line items\) are immutable, **meaning that cannot be changed once uploaded to Zaius.** If you need to process returns, refunds or cancellations [please refer to the relevant documentation.](./#returns-refunds-and-cancellations)
 {% endhint %}
 
-| Display Name | Field Name | Data Type | Description |
-| :--- | :--- | :--- | :--- |
-| Order ID | order\_id | Text | The unique identifier related to this order. |
-| Product ID | product\_id | Text | The unique identifier for the order line item. |
-| Order Item: Price | price | Number | The price for the order item. |
-| Order Item: Quantity | quantity | Number | The number of items purchased. |
-| Order Item: Discount | discount | Number | The discount \(if any\) for the given line item. |
-| Order Item: Subtotal | subtotal | Number | The calculated subtotal for the given product and quantity.  |
-
-### Order Summary \(Orders Object\)
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Display Name</th>
+      <th style="text-align:left">Field Name</th>
+      <th style="text-align:left">Data Type</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Order ID</td>
+      <td style="text-align:left">order_id</td>
+      <td style="text-align:left">Text</td>
+      <td style="text-align:left">The unique identifier related to this order.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Product ID</td>
+      <td style="text-align:left">product_id</td>
+      <td style="text-align:left">Text</td>
+      <td style="text-align:left">The unique identifier for the order line item.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Order Item: Price</td>
+      <td style="text-align:left">price</td>
+      <td style="text-align:left">Number</td>
+      <td style="text-align:left">The price for the order item.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Order Item: Quantity</td>
+      <td style="text-align:left">quantity</td>
+      <td style="text-align:left">Number</td>
+      <td style="text-align:left">The number of items purchased.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Order Item: Discount</td>
+      <td style="text-align:left">discount</td>
+      <td style="text-align:left">Number</td>
+      <td style="text-align:left">The discount (if any) for the given line item.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Order Item: Subtotal</td>
+      <td style="text-align:left">subtotal</td>
+      <td style="text-align:left">Number</td>
+      <td style="text-align:left">
+        <p>The calculated subtotal for the given product and quantity.</p>
+        <p></p>
+        <p><code>subtotal = (price - discount) * quantity</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>### Order Summary \(Orders Object\)
 
 | Display Name | Field Name | Data Type | Description |
 | :--- | :--- | :--- | :--- |
@@ -38,7 +81,7 @@ All Zaius events \(and, as a result, order line items\) are immutable, **meaning
 | Discount | discount | Number |  |
 | Shipping | shipping | Number |  |
 | Subtotal | subtotal | Number |  |
-| Total | total | Number |  |
+| Total | total | Number | `order_total = (sum of (subtotal-discount) for each line item)` |
 | Billing Address | bill\_address | Text | The billing address for the order, lines delimited by commas |
 | Shipping Address | ship\_address | Text | The shipping address for the order, lines delimited by commas |
 | Phone | phone | Text | The phone number for the order in [E.164 format](https://en.wikipedia.org/wiki/E.164) |
