@@ -18,17 +18,86 @@ To learn more about events, and how to send them to Zaius, refer to the followin
 
 ### Event Type: `loyalty`
 
-| Event Action | Fields |
-| :--- | :--- |
-| `points_added` | `previous_loyalty_points_balance current_loyalty_points_balance loyalty_change_in_points` |
-| `points_removed` | `previous_loyalty_points_balance current_loyalty_points_balance loyalty_change_in_points` |
-| `referral_completed` | `loyalty_referral_code_id loyalty_referred_customer_email` |
-| `referral_link_shared` | `loyalty_referral_code_id loyalty_referred_customer_email` |
-| `tier_earned` | `previous_loyalty_tier_id current_loyalty_tier_id` |
-| `tier_lost` | `previous_loyalty_tier_id current_loyalty_tier_id` |
-| `enrolled` |  |
-
-## Schema
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Event Action</th>
+      <th style="text-align:left">Fields</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><code>points_added</code>
+      </td>
+      <td style="text-align:left"><code>previous_loyalty_points_balance<br />current_loyalty_points_balance<br />loyalty_change_in_points</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>points_removed</code>
+      </td>
+      <td style="text-align:left"><code>previous_loyalty_points_balance<br />current_loyalty_points_balance<br />loyalty_change_in_points</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>referral_completed</code>
+      </td>
+      <td style="text-align:left"><code>loyalty_referral_code_id<br />loyalty_referred_customer_email</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>referral_link_shared</code>
+      </td>
+      <td style="text-align:left"><code>loyalty_referral_code_id<br />loyalty_referred_customer_email</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>tier_earned</code>
+      </td>
+      <td style="text-align:left"><code>previous_loyalty_tier_id<br />current_loyalty_tier_id</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>tier_lost</code>
+      </td>
+      <td style="text-align:left"><code>previous_loyalty_tier_id<br />current_loyalty_tier_id</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>coupon_awarded</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>yotpo_redemption_id</code>
+        </p>
+        <p><code>yotpo_redemption_option_id</code>
+        </p>
+        <p><code>yotpo_perk_id</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>coupon_redeemed</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>yotpo_redemption_id</code>
+        </p>
+        <p><code>yotpo_redemption_option_id</code>
+        </p>
+        <p><del><code>yotpo_perk_id</code></del>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>coupon_reminder</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>yotpo_redemption_option_id</code>
+        </p>
+        <p><code>yotpo_points_needed</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>## Schema
 
 To learn more about creating Objects, Fields and Relationships and then updating newly created schema, refer to the following:
 
