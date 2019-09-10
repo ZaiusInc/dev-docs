@@ -63,7 +63,7 @@ To learn more about events, and how to send them to Zaius, refer to the followin
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>coupon_awarded</code>
+      <td style="text-align:left"><code>yotpo_coupon_awarded</code>
       </td>
       <td style="text-align:left">
         <p><code>yotpo_redemption_id</code>
@@ -75,7 +75,7 @@ To learn more about events, and how to send them to Zaius, refer to the followin
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>coupon_redeemed</code>
+      <td style="text-align:left"><code>yotpo_coupon_redeemed</code>
       </td>
       <td style="text-align:left">
         <p><code>yotpo_redemption_id</code>
@@ -87,7 +87,7 @@ To learn more about events, and how to send them to Zaius, refer to the followin
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>coupon_reminder</code>
+      <td style="text-align:left"><code>yotpo_coupon_reminder</code>
       </td>
       <td style="text-align:left">
         <p><code>yotpo_redemption_option_id</code>
